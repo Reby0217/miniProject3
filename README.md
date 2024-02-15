@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This is a project that creates an S3 Bucket with the properties of the versioning and encryption using AWS CDK with the help of AWS CodeWhisperer. It uses an environment created by `AWS CodeCatalyst` and generates CDK app code in `AWS Cloud 9`.
+This is a project that creates an `S3 Bucket` with the properties of the versioning and encryption using AWS CDK with the help of `AWS CodeWhisperer`. It uses an environment created by `AWS CodeCatalyst` and generates CDK app code in `AWS Cloud 9`.
 
 ### Key Steps
 
