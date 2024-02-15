@@ -47,7 +47,7 @@ cdk init app --language=typescript
 
 11. After using CodeWhisperer to generate code, compile the typescript file to javascript using:
 ```bash
-bash npm run build
+npm run build
 ```
 
 12. Take the declarative code in the CDK application and compile it into an AWS CloudFormation template using
