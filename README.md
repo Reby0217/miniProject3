@@ -2,9 +2,9 @@
 
 ## Project Description
 
-This is a project that creates an `S3 Bucket` with the properties of the versioning and encryption using AWS CDK with the help of `AWS CodeWhisperer`. It uses an environment created by `AWS CodeCatalyst` and generates CDK app code in `AWS Cloud 9`.
+This project creates an `S3 Bucket` with the properties of the versioning and encryption using AWS CDK with the help of `AWS CodeWhisperer`. It uses an environment created by `AWS CodeCatalyst` and generates CDK app code in `AWS Cloud 9`.
 
-### Key Steps
+## Key Steps
 
 1. Sign up for [CodeCatalyst](https://codecatalyst.aws/explore) and sign in.
 
@@ -41,8 +41,9 @@ cdk init app --language=typescript
 ```
 
 10. Use CodeWhisperer to generate code for a S3 Bucket:
-    - In `lib/mini_porject3-stack.ts`, use `//make an S3 bucket that enables versioning and encrption` to allow CodeWhisperer to suggest code for creating therequired S3 Bucket enabling versioning and encryption.
-    - In `bin/mini_porject3.ts`, use `//add necessary variables so that a S3 bucket is created and is deployed correctly` to generate necessary variables.
+  - In `lib/mini_porject3-stack.ts`, use `//make an S3 bucket that enables versioning and encrption` to get the suggest code for creating the required S3 Bucket enabling versioning and encryption.
+
+  - In `bin/mini_porject3.ts`, use `//add necessary variables so that a S3 bucket is created and is deployed correctly` to generate necessary variables.
 
 11. After using CodeWhisperer to generate code, compile the typescript file to javascript using:
 ```bash
@@ -58,11 +59,11 @@ cdk synth
 ```bash 
 cdk deploy
 ```
-    - If there are any errors, run `cdk bootstrap` and then `cdk deploy`.
+  - If there are any errors, run `cdk bootstrap` and then `cdk deploy`.
 
 14. Navigate to AWS S3 to check the S3 bucket and its properties.
 
-### Screenshots
+## Screenshots
 
 #### S3 bucket
 ![bucket](screenshots/S3-bucket.png)
