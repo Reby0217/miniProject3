@@ -52,13 +52,13 @@ and then `cd` to the directory.
 
 ### Screenshots
 S3 bucket
-![bucket](miniPorject3/screenshots/S3-bucket.png)
+![bucket](screenshots/S3-bucket.png)
 
 S3 bucket properties of versioning and encryption
-![versioning](miniPorject3/screenshots/enabled-versioning.png)
+![versioning](screenshots/enabled-versioning.png)
 
-![encryption](miniPorject3/screenshots/enabled-encryption.png)
+![encryption](screenshots/enabled-encryption.png)
 
 Creating a User
-![user](miniPorject3/screenshots/user.png)
+![user](screenshots/user.png)
 
