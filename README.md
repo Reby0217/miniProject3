@@ -51,14 +51,15 @@ and then `cd` to the directory.
 14. Navigate to AWS S3 to check the S3 bucket and its properties.
 
 ### Screenshots
-S3 bucket
+
+#### S3 bucket
 ![bucket](screenshots/S3-bucket.png)
 
-S3 bucket properties of versioning and encryption
+#### S3 bucket properties of versioning and encryption
 ![versioning](screenshots/enabled-versioning.png)
 
 ![encryption](screenshots/enabled-encryption.png)
 
-Creating a User
+#### Creating a User
 ![user](screenshots/user.png)
 
