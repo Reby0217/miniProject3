@@ -52,7 +52,7 @@ and then `cd` to the directory.
 
 ### Screenshots
 S3 bucket
-![](miniPorject3/screenshots/S3 bucket.png)
+![bucket](miniPorject3/screenshots/S3 bucket.png)
 
 S3 bucket properties of versioning and encryption
 ![versioning](miniPorject3/screenshots/ enabled versioning.png)
