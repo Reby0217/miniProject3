@@ -35,13 +35,13 @@ mkdir YOUR_PROJECT_NAME
 ```
 and then `cd` to the directory.
 
-9. Create to a new TypeScript CDK project using:
+9. Create a new TypeScript CDK project using:
 ```bash 
 cdk init app --language=typescript
 ```
 
 10. Use CodeWhisperer to generate code for a S3 Bucket:
-  - In `lib/mini_porject3-stack.ts`, use `//make an S3 bucket that enables versioning and encrption` to get the suggest code for creating the required S3 Bucket enabling versioning and encryption.
+  - In `lib/mini_porject3-stack.ts`, use `//make an S3 bucket that enables versioning and encrption` to get the suggested code for creating the required S3 Bucket enabling versioning and encryption.
 
   - In `bin/mini_porject3.ts`, use `//add necessary variables so that a S3 bucket is created and is deployed correctly` to generate necessary variables.
 
