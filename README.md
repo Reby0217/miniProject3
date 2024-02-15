@@ -25,27 +25,39 @@ This is a project that creates an `S3 Bucket` with the properties of the version
 6. Navigate to `Security Credentials`, create access key under selected user and keep a copy of the access key.
 
 7. Navigate to Cloud 9, and set up your access key using:
-``` aws configure```
+```bash 
+aws configure
+```
 
 8. Create a new project directory:
-``` mkdir YOUR_PROJECT_NAME```
+```bash 
+mkdir YOUR_PROJECT_NAME
+```
 and then `cd` to the directory.
 
 9. Create to a new TypeScript CDK project using:
-```cdk init app --language=typescript ```
+```bash 
+cdk init app --language=typescript
+```
 
 10. Use CodeWhisperer to generate code for a S3 Bucket:
     - In `lib/mini_porject3-stack.ts`, use `//make an S3 bucket that enables versioning and encrption` to allow CodeWhisperer to suggest code for creating therequired S3 Bucket enabling versioning and encryption.
     - In `bin/mini_porject3.ts`, use `//add necessary variables so that a S3 bucket is created and is deployed correctly` to generate necessary variables.
 
 11. After using CodeWhisperer to generate code, compile the typescript file to javascript using:
-```npm run build```
+```bash
+bash npm run build
+```
 
 12. Take the declarative code in the CDK application and compile it into an AWS CloudFormation template using
-```cdk synth```
+```bash
+cdk synth
+```
 
 13. Deploy the CloudFormation template to your AWS account by
-```cdk deploy```
+```bash 
+cdk deploy
+```
     - If there are any errors, run `cdk bootstrap` and then `cdk deploy`.
 
 14. Navigate to AWS S3 to check the S3 bucket and its properties.
