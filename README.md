@@ -35,7 +35,7 @@ and then `cd` to the directory.
 ```cdk init app --language=typescript ```
 
 10. Use CodeWhisperer to generate code for a S3 Bucket:
-    - In `lib/mini_porject3-stack.ts`, use `//make an S3 bucket that enables versioning and encrption` to allow CodeWhisperer to suggest code for creating required S3 Bucket enabling versioning and encryption.
+    - In `lib/mini_porject3-stack.ts`, use `//make an S3 bucket that enables versioning and encrption` to allow CodeWhisperer to suggest code for creating therequired S3 Bucket enabling versioning and encryption.
     - In `bin/mini_porject3.ts`, use `//add necessary variables so that a S3 bucket is created and is deployed correctly` to generate necessary variables.
 
 11. After using CodeWhisperer to generate code, compile the typescript file to javascript using:
@@ -52,12 +52,12 @@ and then `cd` to the directory.
 
 ### Screenshots
 S3 bucket
-![bucket](miniPorject3/screenshots/S3 bucket.png)
+![bucket](miniPorject3/screenshots/S3-bucket.png)
 
 S3 bucket properties of versioning and encryption
-![versioning](miniPorject3/screenshots/ enabled versioning.png)
+![versioning](miniPorject3/screenshots/enabled-versioning.png)
 
-![encryption](miniPorject3/screenshots/enabled encryption.png)
+![encryption](miniPorject3/screenshots/enabled-encryption.png)
 
 Creating a User
 ![user](miniPorject3/screenshots/user.png)
